@@ -1,22 +1,22 @@
-# Projet Haute Disponibilité - Protocole HSRP
+# Projet : Haute Disponibilité Réseau avec HSRP
 
-## 1. Mission
-Ce projet a pour objectif de sécuriser la passerelle par défaut (Gateway) du réseau VLAN 10. En cas de défaillance matérielle ou logicielle, le protocole HSRP assure une continuité de service totale via un basculement automatique.
+## Description
+Ce projet concerne la mise en place d'une infrastructure réseau redondante utilisant le protocole HSRP (Hot Standby Router Protocol). L'objectif principal est d'assurer la continuité de service de la passerelle par défaut du VLAN 10, garantissant ainsi une haute disponibilité en cas de panne d'un équipement.
 
-## 2. Architecture
-L'infrastructure déployée repose sur :
-* 02 Routeurs Cisco ISR 2911 (Mode Active/Standby).
-* 01 Commutateur Cisco Catalyst 2960 (Gestion du Trunk).
-* Protocole HSRP pour la redondance de passerelle.
+## Architecture Technique
+* **Matériel :** Routeurs Cisco ISR 2911, Switch Cisco Catalyst 2960.
+* **Protocoles :** HSRP (Mode Active/Standby), Routage Inter-VLAN, Encapsulation 802.1Q (Trunking).
+* **Automatisation :** Scripts Python intégrés pour les tests réseau.
 
-## 3. Contenu du dépôt
-* `/docs` : Rapport technique complet du projet (PDF).
-* `/maquette` : Maquette Packet Tracer finale (`.pkt`).
-* `/captures` : Preuves de validation et résultats de tests.
-* `/scripts` : Fichiers de configuration CLI.
+## Organisation du dépôt
+Ce dépôt contient les ressources suivantes :
+* `/docs` : Rapport technique complet (format PDF).
+* `/maquette` : Fichier de simulation Packet Tracer (`.pkt`).
+* `/captures` : Preuves visuelles de configuration et de validation.
+* `/scripts` : Fichiers de configuration CLI (`.txt`) et scripts d'automatisation (`.py`).
 
-## 4. Documentation
-Le rapport complet détaillant les objectifs, la méthodologie, la résolution d'incidents et la validation technique est disponible dans le répertoire `/docs`.
+## Documentation
+Pour une analyse détaillée des tests de basculement et des résultats obtenus, veuillez consulter le rapport présent dans le dossier `/docs`.
 
-## 5. Auteur
-- Lauryn HECQUE--NASCIMENTO
+## Contributeur
+* Lauryn HECQUE--NASCIMENTO
