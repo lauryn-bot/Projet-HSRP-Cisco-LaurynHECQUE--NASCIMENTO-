@@ -18,6 +18,5 @@ L'infrastructure déployée repose sur :
 ## 4. Documentation
 Le rapport complet détaillant les objectifs, la méthodologie, la résolution d'incidents et la validation technique est disponible dans le répertoire `/docs`.
 
-## 5. Auteurs
+## 5. Auteur
 - Lauryn HECQUE--NASCIMENTO
-- Mehdi BEN MOULAY
