@@ -1,0 +1,8 @@
+Configuration Routeur Secondaire (Standby)
+
+interface GigabitEthernet0/0.10
+encapsulation dot1Q 10
+ip address 192.168.10.253 255.255.255.0
+standby 1 ip 192.168.10.254
+standby 1 priority 100
+standby 1 preempt
